@@ -10,6 +10,7 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
+        //Hangi mevye veya sebzeden kaçar kilo istediğinin kullanıcıdan alınması ve her aşamada fiyata eklenerek toplam fiyatın hesaplanması
         System.out.println("Armut (Kaç kilo): ");
         kilo = input.nextInt();
         total = kilo*armut;
