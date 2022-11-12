@@ -1,5 +1,5 @@
 import java.util.Scanner;
-//hesap makinesi
+//if-else kullanarak hesap makinesi yapımı
 
 public class Main {
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class Main {
             System.out.println("Lütfen yapmak istediğiniz işlemi seçin:");
             System.out.println("1-Toplama\n2-Çıkarma\n3-Çarpma\n4-Bölme");
             select = input.nextInt();
-
+           //Toplama,Çıkarma,Çarpma,Bölme işlemleri
             if(select == 1){
                 System.out.println("TOPLAMA İŞLEMİNİN SONUCU: "+ (n1 + n2));
             }
