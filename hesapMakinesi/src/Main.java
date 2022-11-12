@@ -1,5 +1,5 @@
 import java.util.Scanner;
-//if-else kullanarak hesap makinesi yapımı
+//switch-case kullanarak hesap makinesi yapımı
 
 public class Main {
     public static void main(String[] args) {
