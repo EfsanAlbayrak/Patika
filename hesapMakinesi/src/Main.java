@@ -19,29 +19,26 @@ public class Main {
             System.out.println("1-Toplama\n2-Çıkarma\n3-Çarpma\n4-Bölme");
             select = input.nextInt();
            //Toplama,Çıkarma,Çarpma,Bölme işlemleri
-            if(select == 1){
-                System.out.println("TOPLAMA İŞLEMİNİN SONUCU: "+ (n1 + n2));
-            }
-            else if(select == 2){
-                System.out.println("ÇIKARMA İŞLEMİNİN SONUCU: "+ (n1 - n2));
-            }
-            else if(select == 3){
-                System.out.println("ÇARPMA İŞLEMİNİN SONUCU: "+ (n1 * n2));
-            }
-            else if(select == 4)
-            {
-                if(n2 != 0){
-                    System.out.println("BÖLME İŞLEMİNİN SONUCU: "+ (n1 / n2));
-                }
-                else{
+             switch (select) {
+            case 1:
+                System.out.println("TOPLAMA İŞLEMİNİN SONUCU: " + (n1 + n2));
+                break;
+            case 2:
+                System.out.println("ÇIKARMA İŞLEMİNİN SONUCU: " + (n1 - n2));
+                break;
+            case 3:
+                System.out.println("ÇARPMA İŞLEMİNİN SONUCU: " + (n1 * n2));
+                break;
+            case 4:
+                if (n2 != 0) {
+                    System.out.println("BÖLME İŞLEMİNİN SONUCU: " + (n1 / n2));
+                } else {
                     System.out.println("BİR SAYI 0'A BÖLÜNEMEZ!!");
                 }
-
-
-            }
-            else {
+                break;
+            default:
                 System.out.println("YANLIŞ SEÇİM!");
-            }
+        }
         }
     }
 
